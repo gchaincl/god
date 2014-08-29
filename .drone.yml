@@ -1,5 +1,6 @@
 image: mischief/docker-golang
 env:
+  - DEBUG=true
   - GOPATH=/var/cache/drone
 script:
   - go build
